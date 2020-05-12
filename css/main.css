@@ -54,7 +54,7 @@ nav ul li a:hover {
   min-height: 90vh;
   /* background: url(/image/banner.jpg); */
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/image/banner.jpg);
+    url(../image/banner.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -152,7 +152,7 @@ nav ul li a:hover {
 #projects {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/image/projects.jpg);
+    url(../image/projects.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -355,6 +355,7 @@ nav ul li a:hover {
   justify-content: space-between;
   padding: 20px;
   margin: 0 10px;
+  flex-wrap: wrap;
 }
 .info-fb .fa-facebook {
   /* display: flex; */
