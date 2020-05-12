@@ -358,18 +358,29 @@ nav ul li a:hover {
 }
 .info-fb .fa-facebook {
   /* display: flex; */
+  color: rgba(121, 15, 121, 0.66);
   transform: scale(2);
   transition: transform 1s, color 1s, opacity 1s;
   margin: 10px;
 }
 .info-git .fa-github {
   /* display: flex; */
+  color: rgba(121, 15, 121, 0.66);
   transform: scale(2);
   margin: 10px;
   transition: transform 1s, color 1s, opacity 1s;
 }
+.info-mail .fa-envelope-square {
+  /* display: flex; */
+  color: rgba(121, 15, 121, 0.66);
+  transform: scale(2);
+  margin: 10px;
+  transition: transform 1s, color 1s, opacity 1s;
+}
+
 .info-link .fa-linkedin {
   /* display: flex; */
+  color: rgba(121, 15, 121, 0.66);
   transform: scale(2);
   margin: 10px;
   transition: transform 1s, color 1s, opacity 1s;
@@ -384,6 +395,12 @@ nav ul li a:hover {
   /* display: flex; */
   transform: scale(3.5);
   color: black;
+  opacity: 0.3;
+}
+.info-mail .fa-envelope-square:hover {
+  /* display: flex; */
+  transform: scale(3.5);
+  color: rgb(172, 157, 157);
   opacity: 0.3;
 }
 .info-link .fa-linkedin:hover {
